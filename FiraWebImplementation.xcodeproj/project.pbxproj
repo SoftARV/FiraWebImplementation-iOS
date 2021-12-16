@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4966795F276B77A4009F1EDD /* FiraWebImplementationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4966795E276B77A4009F1EDD /* FiraWebImplementationApp.swift */; };
+		49667961276B77A4009F1EDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49667960276B77A4009F1EDD /* ContentView.swift */; };
+		49667963276B77A5009F1EDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49667962276B77A5009F1EDD /* Assets.xcassets */; };
+		49667966276B77A5009F1EDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49667965276B77A5009F1EDD /* Preview Assets.xcassets */; };
+		49667970276B77A5009F1EDD /* FiraWebImplementationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4966796F276B77A5009F1EDD /* FiraWebImplementationTests.swift */; };
+		4966797A276B77A5009F1EDD /* FiraWebImplementationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49667979276B77A5009F1EDD /* FiraWebImplementationUITests.swift */; };
+		4966797C276B77A5009F1EDD /* FiraWebImplementationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4966797B276B77A5009F1EDD /* FiraWebImplementationUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4966796C276B77A5009F1EDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49667953276B77A4009F1EDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4966795A276B77A4009F1EDD;
+			remoteInfo = FiraWebImplementation;
+		};
+		49667976276B77A5009F1EDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49667953276B77A4009F1EDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4966795A276B77A4009F1EDD;
+			remoteInfo = FiraWebImplementation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4966795B276B77A4009F1EDD /* FiraWebImplementation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiraWebImplementation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4966795E276B77A4009F1EDD /* FiraWebImplementationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiraWebImplementationApp.swift; sourceTree = "<group>"; };
+		49667960276B77A4009F1EDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		49667962276B77A5009F1EDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49667965276B77A5009F1EDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4966796B276B77A5009F1EDD /* FiraWebImplementationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiraWebImplementationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4966796F276B77A5009F1EDD /* FiraWebImplementationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiraWebImplementationTests.swift; sourceTree = "<group>"; };
+		49667975276B77A5009F1EDD /* FiraWebImplementationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiraWebImplementationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49667979276B77A5009F1EDD /* FiraWebImplementationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiraWebImplementationUITests.swift; sourceTree = "<group>"; };
+		4966797B276B77A5009F1EDD /* FiraWebImplementationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiraWebImplementationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49667958276B77A4009F1EDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49667968276B77A5009F1EDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49667972276B77A5009F1EDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49667952276B77A4009F1EDD = {
+			isa = PBXGroup;
+			children = (
+				4966795D276B77A4009F1EDD /* FiraWebImplementation */,
+				4966796E276B77A5009F1EDD /* FiraWebImplementationTests */,
+				49667978276B77A5009F1EDD /* FiraWebImplementationUITests */,
+				4966795C276B77A4009F1EDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4966795C276B77A4009F1EDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4966795B276B77A4009F1EDD /* FiraWebImplementation.app */,
+				4966796B276B77A5009F1EDD /* FiraWebImplementationTests.xctest */,
+				49667975276B77A5009F1EDD /* FiraWebImplementationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4966795D276B77A4009F1EDD /* FiraWebImplementation */ = {
+			isa = PBXGroup;
+			children = (
+				4966795E276B77A4009F1EDD /* FiraWebImplementationApp.swift */,
+				49667960276B77A4009F1EDD /* ContentView.swift */,
+				49667962276B77A5009F1EDD /* Assets.xcassets */,
+				49667964276B77A5009F1EDD /* Preview Content */,
+			);
+			path = FiraWebImplementation;
+			sourceTree = "<group>";
+		};
+		49667964276B77A5009F1EDD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				49667965276B77A5009F1EDD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4966796E276B77A5009F1EDD /* FiraWebImplementationTests */ = {
+			isa = PBXGroup;
+			children = (
+				4966796F276B77A5009F1EDD /* FiraWebImplementationTests.swift */,
+			);
+			path = FiraWebImplementationTests;
+			sourceTree = "<group>";
+		};
+		49667978276B77A5009F1EDD /* FiraWebImplementationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49667979276B77A5009F1EDD /* FiraWebImplementationUITests.swift */,
+				4966797B276B77A5009F1EDD /* FiraWebImplementationUITestsLaunchTests.swift */,
+			);
+			path = FiraWebImplementationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4966795A276B77A4009F1EDD /* FiraWebImplementation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4966797F276B77A5009F1EDD /* Build configuration list for PBXNativeTarget "FiraWebImplementation" */;
+			buildPhases = (
+				49667957276B77A4009F1EDD /* Sources */,
+				49667958276B77A4009F1EDD /* Frameworks */,
+				49667959276B77A4009F1EDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FiraWebImplementation;
+			productName = FiraWebImplementation;
+			productReference = 4966795B276B77A4009F1EDD /* FiraWebImplementation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4966796A276B77A5009F1EDD /* FiraWebImplementationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49667982276B77A5009F1EDD /* Build configuration list for PBXNativeTarget "FiraWebImplementationTests" */;
+			buildPhases = (
+				49667967276B77A5009F1EDD /* Sources */,
+				49667968276B77A5009F1EDD /* Frameworks */,
+				49667969276B77A5009F1EDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4966796D276B77A5009F1EDD /* PBXTargetDependency */,
+			);
+			name = FiraWebImplementationTests;
+			productName = FiraWebImplementationTests;
+			productReference = 4966796B276B77A5009F1EDD /* FiraWebImplementationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49667974276B77A5009F1EDD /* FiraWebImplementationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49667985276B77A5009F1EDD /* Build configuration list for PBXNativeTarget "FiraWebImplementationUITests" */;
+			buildPhases = (
+				49667971276B77A5009F1EDD /* Sources */,
+				49667972276B77A5009F1EDD /* Frameworks */,
+				49667973276B77A5009F1EDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49667977276B77A5009F1EDD /* PBXTargetDependency */,
+			);
+			name = FiraWebImplementationUITests;
+			productName = FiraWebImplementationUITests;
+			productReference = 49667975276B77A5009F1EDD /* FiraWebImplementationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49667953276B77A4009F1EDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					4966795A276B77A4009F1EDD = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					4966796A276B77A5009F1EDD = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 4966795A276B77A4009F1EDD;
+					};
+					49667974276B77A5009F1EDD = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 4966795A276B77A4009F1EDD;
+					};
+				};
+			};
+			buildConfigurationList = 49667956276B77A4009F1EDD /* Build configuration list for PBXProject "FiraWebImplementation" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49667952276B77A4009F1EDD;
+			productRefGroup = 4966795C276B77A4009F1EDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4966795A276B77A4009F1EDD /* FiraWebImplementation */,
+				4966796A276B77A5009F1EDD /* FiraWebImplementationTests */,
+				49667974276B77A5009F1EDD /* FiraWebImplementationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49667959276B77A4009F1EDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49667966276B77A5009F1EDD /* Preview Assets.xcassets in Resources */,
+				49667963276B77A5009F1EDD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49667969276B77A5009F1EDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49667973276B77A5009F1EDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49667957276B77A4009F1EDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49667961276B77A4009F1EDD /* ContentView.swift in Sources */,
+				4966795F276B77A4009F1EDD /* FiraWebImplementationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49667967276B77A5009F1EDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49667970276B77A5009F1EDD /* FiraWebImplementationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49667971276B77A5009F1EDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4966797A276B77A5009F1EDD /* FiraWebImplementationUITests.swift in Sources */,
+				4966797C276B77A5009F1EDD /* FiraWebImplementationUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4966796D276B77A5009F1EDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4966795A276B77A4009F1EDD /* FiraWebImplementation */;
+			targetProxy = 4966796C276B77A5009F1EDD /* PBXContainerItemProxy */;
+		};
+		49667977276B77A5009F1EDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4966795A276B77A4009F1EDD /* FiraWebImplementation */;
+			targetProxy = 49667976276B77A5009F1EDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4966797D276B77A5009F1EDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4966797E276B77A5009F1EDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49667980276B77A5009F1EDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FiraWebImplementation/Preview Content\"";
+				DEVELOPMENT_TEAM = YH85846YT7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fira-live.FiraWebImplementation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49667981276B77A5009F1EDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FiraWebImplementation/Preview Content\"";
+				DEVELOPMENT_TEAM = YH85846YT7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fira-live.FiraWebImplementation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		49667983276B77A5009F1EDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YH85846YT7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fira-live.FiraWebImplementationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FiraWebImplementation.app/FiraWebImplementation";
+			};
+			name = Debug;
+		};
+		49667984276B77A5009F1EDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YH85846YT7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fira-live.FiraWebImplementationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FiraWebImplementation.app/FiraWebImplementation";
+			};
+			name = Release;
+		};
+		49667986276B77A5009F1EDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YH85846YT7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fira-live.FiraWebImplementationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FiraWebImplementation;
+			};
+			name = Debug;
+		};
+		49667987276B77A5009F1EDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YH85846YT7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fira-live.FiraWebImplementationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FiraWebImplementation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49667956276B77A4009F1EDD /* Build configuration list for PBXProject "FiraWebImplementation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4966797D276B77A5009F1EDD /* Debug */,
+				4966797E276B77A5009F1EDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4966797F276B77A5009F1EDD /* Build configuration list for PBXNativeTarget "FiraWebImplementation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49667980276B77A5009F1EDD /* Debug */,
+				49667981276B77A5009F1EDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49667982276B77A5009F1EDD /* Build configuration list for PBXNativeTarget "FiraWebImplementationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49667983276B77A5009F1EDD /* Debug */,
+				49667984276B77A5009F1EDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49667985276B77A5009F1EDD /* Build configuration list for PBXNativeTarget "FiraWebImplementationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49667986276B77A5009F1EDD /* Debug */,
+				49667987276B77A5009F1EDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49667953276B77A4009F1EDD /* Project object */;
+}
