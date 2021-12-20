@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
+		<style>
+			html,
+			body {
+				width: 100%;
+				max-width: 100%;
+				overflow-x: hidden;
+				margin: 0;
+			}
+
+			.header {
+				font-family: 'Raleway', sans-serif;
+				letter-spacing: 2px;
+				font-weight: 900;
+				text-transform: uppercase;
+			}
+
+			.content-limiter {
+				max-width: 1160px;
+				margin: 0 auto;
+			}
+
+			.content-limiter>.col {
+				float: none;
+				position: static;
+				left: auto;
+				width: auto;
+				margin-right: 0;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="content-limiter">
+			<div class="header">
+				FIRA Demo - Mobile App
+			</div>
+			<div class="col">
+				<div id="fira-container" style="height:600px;width:100%"></div>
+			</div>
+		</div>
+	</body>
+	<!-- FIRA by Live Retail Inc. -->
+	<script 
+		src="https://firalivedev.blob.core.windows.net/scripts/fira-script-dev.js" 
+		data-firakey="61086e62e714cd300dfedf85">
+	</script>
+</html>

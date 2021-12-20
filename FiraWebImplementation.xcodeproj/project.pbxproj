@@ -14,6 +14,9 @@
 		49667970276B77A5009F1EDD /* FiraWebImplementationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4966796F276B77A5009F1EDD /* FiraWebImplementationTests.swift */; };
 		4966797A276B77A5009F1EDD /* FiraWebImplementationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49667979276B77A5009F1EDD /* FiraWebImplementationUITests.swift */; };
 		4966797C276B77A5009F1EDD /* FiraWebImplementationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4966797B276B77A5009F1EDD /* FiraWebImplementationUITestsLaunchTests.swift */; };
+		49667989276B77C8009F1EDD /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49667988276B77C8009F1EDD /* WebView.swift */; };
+		4966798C276B8204009F1EDD /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 4966798B276B8204009F1EDD /* index.html */; };
+		4966798E276BE3C4009F1EDD /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4966798D276BE3C4009F1EDD /* SafariView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,10 @@
 		49667975276B77A5009F1EDD /* FiraWebImplementationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiraWebImplementationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49667979276B77A5009F1EDD /* FiraWebImplementationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiraWebImplementationUITests.swift; sourceTree = "<group>"; };
 		4966797B276B77A5009F1EDD /* FiraWebImplementationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiraWebImplementationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		49667988276B77C8009F1EDD /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		4966798B276B8204009F1EDD /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		4966798D276BE3C4009F1EDD /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		49EF4560276C018400AFA67D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +101,12 @@
 		4966795D276B77A4009F1EDD /* FiraWebImplementation */ = {
 			isa = PBXGroup;
 			children = (
+				49EF4560276C018400AFA67D /* Info.plist */,
+				4966798A276B7946009F1EDD /* Resources */,
 				4966795E276B77A4009F1EDD /* FiraWebImplementationApp.swift */,
 				49667960276B77A4009F1EDD /* ContentView.swift */,
+				49667988276B77C8009F1EDD /* WebView.swift */,
+				4966798D276BE3C4009F1EDD /* SafariView.swift */,
 				49667962276B77A5009F1EDD /* Assets.xcassets */,
 				49667964276B77A5009F1EDD /* Preview Content */,
 			);
@@ -125,6 +136,14 @@
 				4966797B276B77A5009F1EDD /* FiraWebImplementationUITestsLaunchTests.swift */,
 			);
 			path = FiraWebImplementationUITests;
+			sourceTree = "<group>";
+		};
+		4966798A276B7946009F1EDD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4966798B276B8204009F1EDD /* index.html */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4966798C276B8204009F1EDD /* index.html in Resources */,
 				49667966276B77A5009F1EDD /* Preview Assets.xcassets in Resources */,
 				49667963276B77A5009F1EDD /* Assets.xcassets in Resources */,
 			);
@@ -257,6 +277,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4966798E276BE3C4009F1EDD /* SafariView.swift in Sources */,
+				49667989276B77C8009F1EDD /* WebView.swift in Sources */,
 				49667961276B77A4009F1EDD /* ContentView.swift in Sources */,
 				4966795F276B77A4009F1EDD /* FiraWebImplementationApp.swift in Sources */,
 			);
@@ -422,11 +444,13 @@
 				DEVELOPMENT_TEAM = YH85846YT7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FiraWebImplementation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,11 +475,13 @@
 				DEVELOPMENT_TEAM = YH85846YT7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FiraWebImplementation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
