@@ -12,8 +12,9 @@ struct WebView: UIViewRepresentable {
     let url: URL
     
     func makeUIView(context: Context) -> WKWebView {
+        // se inicia la configuracion del webview
         let webViewConfiguration  = WKWebViewConfiguration()
-        webViewConfiguration.allowsInlineMediaPlayback = true
+        webViewConfiguration.allowsInlineMediaPlayback = true // configuracion importante para permitirle al webview la reproduccion de video inline
         webViewConfiguration.mediaTypesRequiringUserActionForPlayback = .audio
         webViewConfiguration.allowsAirPlayForMediaPlayback = false
         webViewConfiguration.preferences.javaScriptCanOpenWindowsAutomatically = true

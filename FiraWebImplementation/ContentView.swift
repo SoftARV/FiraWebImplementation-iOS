@@ -9,25 +9,35 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var isShowingWebView = false
+    @State private var isShowingSafari = false
     
-    var url = URL(string: "https://firalivedev.blob.core.windows.net/scripts/demo/index.html?store=61086e62e714cd300dfedf85")!
+    var url = URL(string: "https://www.google.com")!
     
     var body: some View {
-        NavigationView {
-            NavigationLink(destination: SafariView(url: url)) {
-                Text("show web view")
+        VStack {
+            NavigationView {
+                NavigationLink(destination: WebView(url: url)) {
+                    Text("show web view")
+                }
+            }
+            
+            // Para mostrar pantalla completa el SafariViewController
+            // se usa el fullScreenCover modal
+            Button(action: showSafariView) {
+                Text("show safari view")
+            }
+            .fullScreenCover(isPresented: $isShowingSafari) {
+                SafariView(url: url)
             }
         }
-//        Button(action: showWebView) {
-//            Text("show safari view")
-//        }
-//        .sheet(isPresented: $isShowingWebView) {
-//            WebView(url: URL(string: firaUrl)!)
-//        }
     }
     
-    func showWebView() {
+    private func showWebView() {
         isShowingWebView.toggle()
+    }
+    
+    private func showSafariView() {
+        isShowingSafari.toggle()
     }
 }
 
